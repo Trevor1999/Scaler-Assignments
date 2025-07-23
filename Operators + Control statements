@@ -1,0 +1,204 @@
+Q1. Print the result of expression
+Print the result of the following expression:
+(3 + 4) // 2 + 6
+
+Q2. Set the values
+Set the value of variable a, b and c such that the following condition evaluates to true:
+a = -1 # change this
+b = -1 # change this
+c = -1 # change this
+# DO NOT CHANGE THIS
+x = a < b + c
+print(x) # this should be True
+Note: You need to write the code from scratch in the code editor.
+
+Q3. Number of bills
+Problem Description
+Given total bills amount and amount of a single bill. Print number of bills.
+Note : The total amount is equally splitted in all bills. The number of bills should be an integer value.
+Input Format
+The first line contains a real number N denoting the total budget.
+The second line contains an integer M denoting the value of a single bill.
+Output Format
+Print in a single line denoting the total number of bills that can fit in the total budget.
+Problem Constraints
+1 <= N <= 10000
+1 <= M <= 100
+Example Input
+Input:-
+126.3
+5
+Example Output
+Output:-
+25
+
+Q4. Spammer Trouble
+Problem Description
+A group of spammers is troubling Varun by calling on his mobile phone repeatedly. After a while, Varun observed a pattern that the mobile number from which the spammers call him is always lesser than his mobile number when compared on the number line. The mobile number of Varun is 1234880990. Given a mobile number as an input print True if the number belongs to the spammers else False.
+Input Format
+The input will be a single integer representing a mobile number.
+Output Format
+The output would be True if the condition holds else False
+Sample Input
+9999999999
+Sample Output
+False
+Note: All the mobile numbers in this problem are hypothetical
+
+Q5. String Concatenation Python
+What is the result of the following expression in Python?
+print("54" + "23")
+
+Q6. Find modulo
+Problem Description
+Write a program that takes input 2 integers A and B, and returns A%B.
+Input Format
+First line takes input of integer A
+Second line takes input of integer B
+Output Format
+Return the required value
+Example Input
+10
+3
+Example Output
+1
+Example Explanation
+10 % 3 = 1. When we divide 10 by 3, the remainder is 1.
+
+Q7. Angles Of Valid Triangle?
+Problem Description
+You are given 3 integer angles(in degrees) A, B and C of a triangle. You have to tell whether the triangle is valid or not.
+A triangle is valid if sum of its angles equals to 180.
+NOTE: You have to take the input of 3 sides of triangle from the user.
+Problem Constraints
+1 <= A, B, C <= 180
+Input Format
+First line of the input contains an integer A.
+Second line of the input contains an integer B.
+Third line of the input contains an integer C.
+Output Format
+Print 1 if the triangle having given sides is valid, else print 0.
+Example Input
+Input 1:
+ 60
+ 60
+ 60
+Input 2:
+ 30
+ 40
+ 50
+Example Output
+Output 1:
+ 1 
+Output 2:
+ 0 
+Example Explanation
+Explanation 1:
+Sum of angles = A + B + C = 60 + 60 + 60 = 180
+Hence, the given triangle is valid.
+Explanation 2:
+Sum of angles = A + B + C = 30 + 40 + 50 = 120
+As sum of angles is not equal to 180, the given triangle is not valid.
+
+Q8. Profit Or Loss
+Problem Description
+You are given the Cost Price C and Selling Price S of a Product. You have to tell whether there is a Profit or Loss. Also, calculate total profit or loss.
+NOTE: It is guaranteed that Cost Price and Selling Price are not equal.
+NOTE: You have to take input of the Cost Price(C) and Selling Price(S) from the user.
+Problem Constraints
+1 <= C, S <= 109
+C ≠ S
+Input Format
+First line of the input contains a single integer C.
+Second line of the input contains a single integer S.
+Output Format
+Print two integers in separate lines.
+First integer denotes whether there is a profit or loss. If there is a profit, print 1, else print -1.
+Second integer is a non-negative integer denoting the absolute value of total profit or loss.
+Example Input
+Input 1:
+ 2
+ 4
+Input 2:
+ 4
+ 1
+Example Output
+Output 1:
+ 1
+ 2
+Output 2:
+ -1
+ 3
+Example Explanation
+Explanation 1:
+ Cost Price = 2
+ Selling Price = 4
+ As Cost Price < Selling Price, there is a profit.
+ Total Profit = Selling Price - Cost Price = 4 - 2 = 2
+Explanation 2:
+ Cost Price = 4
+ Selling Price = 1
+ As Cost Price > Selling Price, there is a loss.
+ Total Loss = Cost Price - Selling Price = 4 - 1 = 3 
+
+Q9. Max of two
+Problem Description
+Write a program to input two numbers(A & B) from user and print the maximum element among A & B.
+Problem Constraints
+1 <= A <= 1000000
+1 <= B <= 1000000
+Input Format
+First line is a single integer A.
+Second line is a single integer B.
+Output Format
+One line containing the greater integer A or B.
+Example Input
+Input 1:
+5 
+6
+Input 2:
+1000 
+10000
+Example Output
+Output 1:
+6
+Output 2:
+10000
+Example Explanation
+Explanation 1:
+Clearly, among 5 and 6, 6 is maximum.
+Explanation 2:
+Clearly, among 1000 and 10000, 10000 is maximum.
+
+Q10. Valid Statements
+Which of the following are valid statements in python: Assume that the variable ‘a’ has already been declared:
+a.if a>=2:
+      print("TRUE")
+b.if (a=>2):
+      print("TRUE")
+c.if (a%2!=0):
+      print("TRUE")
+d.if a//3=1:
+      print("TRUE")
+
+Q11. Roller Coaster Ride
+Problem Description
+Write a program that takes the age of the user as input and tells them if they're old enough to ride a roller coaster. The minimum age to ride the roller coaster in this question is 13.
+Input Format
+There is only 1 single line in the input, which is the age of the user.
+Output Format
+Print the following if user can ride the roller coaster:
+You can ride the roller coaster!
+Print the following if user can't ride the roller coaster:
+You can't ride the roller coaster.
+Example Input
+Input 1:-
+9
+Input 2:-
+13
+Example Output
+Output 1:-
+You can't ride the roller coaster.
+Output 2:-
+You can ride the roller coaster!
+
