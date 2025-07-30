@@ -1,0 +1,195 @@
+Q1. arrange while
+You want to find the first n natural even numbers. In what sequence should the following statements be rearranged to get the desired output?
+Assume that suitable indentation will be included.
+1. if i%2 ==0:
+2. i=2
+3. print(i)
+4. while (i<=2*n):
+5. i+=1
+
+Q2. Even Game
+Problem Description
+Write a program to print all even numbers from 1 to N where you have to take N as input from the user.
+Note: Use while-loop OR for-loop, according to session flow.
+
+Note: You can use int(input()) for obtaining user input of number N.
+
+Problem Constraints
+
+1 <= N <= 1000000
+Input Format
+
+A single line representing N
+Output Format
+
+All even numbers from 1 to N are separated by spaces.
+Example Input
+
+Input 1:
+5
+
+Input 2:
+10
+Example Output
+
+Output 1:
+2 4 
+
+Output 2:
+2 4 6 8 10
+Example Explanation
+
+Sample 1:
+2 4
+The even numbers between 1 to 5 are 2 and 4. So the numbers 2 and 4 are printed separated by space.
+
+Output 2:
+2 4 6 8 10
+The even numbers between 1 to 10 are 2, 4, 6, 8 and 10. So the numbers 2, 4, 6, 8, 10 are printed separated by space.
+
+Q3. Print perfect squares
+Problem Description
+
+Take an input of a number A from the user. Print all perfect squares less than or equal to A.
+Note - Perfect squares are integers whose square root is an integer. (For Example: 16 is perfect square as √16 = 4, or 42 = 16)
+
+
+
+Problem Constraints
+
+1 <= A <= 104
+
+
+
+
+Input Format
+
+A single line consisting of a integer A.
+
+
+
+
+Output Format
+
+Print perfect squares less than or equal to A in a single line in a space-separated manner.
+
+
+
+Example Input
+
+Input 1:
+
+
+
+
+
+20
+Input 2:
+
+100
+
+
+Example Output
+
+Output 1:
+
+
+
+
+
+1 4 9 16
+Output 2:
+
+1 4 9 16 25 36 49 64 81 100
+
+Q4. for loop output
+What will be the output of the following code:
+
+for i in range(-6, -10, -1):
+     print(i, end =" ")
+Q5. Summation Game
+Problem Description
+
+Write a program to find sum all Natural numbers from 1 to N where you have to take N as input from user
+
+
+Problem Constraints
+
+1 <= N <= 1000
+
+
+
+Input Format
+
+A single line representing N
+
+
+
+Output Format
+
+A single integer showing sum of all Natural numbers from 1 to N
+
+
+
+Example Input
+
+Input 1:
+
+
+5
+Input 2:
+
+
+10
+
+
+Example Output
+
+Output 1:
+
+
+15
+Output 2:
+
+55
+
+
+Q6. Multiples of 4 new
+Problem Description
+Given an integer input N, print all multiples of 4 less than or equal to N.
+
+Problem Constraints
+
+1 <= N <= 10000
+
+
+Input Format
+
+Single line containing an integer N.
+
+
+Output Format
+
+Space separated integers representing multiples of 4 less than or equal to N.
+
+
+Example Input
+
+22
+
+
+Example Output
+
+4 8 12 16 20
+
+
+Example Explanation
+
+1 * 4 = 4
+2 * 4 = 8
+3 * 4 = 12
+4 * 4 = 16
+5 * 4 = 20
+
+All are multiples of 4 less than 22
+
